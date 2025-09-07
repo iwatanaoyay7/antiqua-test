@@ -1,0 +1,200 @@
+{
+  "Academy": [
+      "Plato",
+      "Speusippus",
+      "Xenocrates of Chalcedon"
+  ],
+  "Socrates": [
+      "Plato",
+      "Xenophon",
+      "Aristophanes"
+  ],
+  "Minor_Socratic_Schools": [
+      "Antisthenes",
+      "Critias",
+      "Hippias of Elis"
+  ],
+  "Aristotle_Commentators": [
+      "Alexander of Aphrodisias",
+      "Ammonius",
+      "Anonymous Commentator on Aristotle",
+      "Asclepius",
+      "Aspasius",
+      "David",
+      "Dexippus",
+      "Elias",
+      "Eustratius",
+      "Michael of Ephesus",
+      "Olympiodorus",
+      "Philoponus",
+      "Porphyry",
+      "Proclus",
+      "Simplicius",
+      "Sophonias",
+      "Stephanus of Alexandria",
+      "Syrianus",
+      "Themistius"
+  ],
+  "Peripatetic_School": [
+      "Aristotle",
+      "Theophrastus",
+      "Aristoxenus"
+  ],
+  "Neoplatonism": [
+      "Plotinus",
+      "Porphyry",
+      "Proclus",
+      "Syrianus",
+      "Olympiodorus",
+      "Iamblichus"
+  ],
+  "Middle_Platonism": [
+      "Plutarch",
+      "Apuleius",
+      "Albinus"
+  ],
+  "Pre-Socratic_Philosophy": [
+      "Democritus",
+      "Diogenes of Apollonia",
+      "Heraclitus of Ephesus",
+      "Parmenides",
+      "Epicharmus",
+      "Archytas of Tarentum",
+      "Philolaus of Croton",
+      "Antiphon of Athens",
+      "Gorgias of Leontini",
+      "Hippias of Elis",
+      "Prodicus"
+  ],
+  "Stoicism": [
+      "Epictetus",
+      "Marcus Aurelius",
+      "Seneca",
+      "Chrysippus",
+      "Cleanthes"
+  ],
+  "Epicureanism": [
+      "Epicurus",
+      "Lucretius",
+      "Democritus"
+  ],
+  "Scepticism": [
+      "Sextus Empiricus"
+  ],
+  "Pythagorean_School": [
+      "Archytas of Tarentum",
+      "Philolaus of Croton"
+  ],
+  "Sophists": [
+      "Antiphon of Athens",
+      "Gorgias of Leontini",
+      "Hippias of Elis",
+      "Prodicus"
+  ],
+  "Church_Fathers": [
+      "Augustine",
+      "Clement of Alexandria"
+  ],
+  "Roman_Philosophy": [
+      "Boethius",
+      "Lucretius",
+      "Sextus Empiricus",
+      "Cicero"
+  ],
+  "Greek_History": [
+      "Herodotus",
+      "Thucydides",
+      "Xenophon",
+      "Diodorus Siculus"
+  ],
+  "Roman_History": [
+      "Caesar",
+      "Diodorus Siculus",
+      "Pliny the Elder",
+      "Tacitus"
+  ],
+  "Biography": [
+      "Diogenes Laertius",
+      "Plutarch"
+  ],
+  "Geography": [
+      "Pausanias",
+      "Strabo"
+  ],
+  "Epic_Greek": [
+      "Apollodorus",
+      "Apollonius Rhodius",
+      "Hesiod",
+      "Homer",
+      "Nicander of Colophon"
+  ],
+  "Epic_Latin": [
+      "Ovid",
+      "Vergil"
+  ],
+  "Tragedy_Greek": [
+      "Aeschylus",
+      "Euripides",
+      "Sophocles"
+  ],
+  "Tragedy_Latin": [
+      "Seneca"
+  ],
+  "Comedy_Greek": [
+      "Aristophanes"
+  ],
+  "Comedy_Latin": [
+      "Plautus"
+  ],
+  "Lyric_Greek": [
+      "Pindar"
+  ],
+  "Lyric_Latin": [
+      "Horatius"
+  ],
+  "Satire_Latin": [
+      "Juvenal"
+  ],
+  "Oratory_Greek": [
+      "Demosthenes",
+      "Dio Chrysostom",
+      "Isocrates",
+      "Themistius",
+      "Lysias",
+      "Gorgias of Leontini"
+  ],
+  "Oratory_Latin": [
+      "Cicero"
+  ],
+  "Medical_Greek": [
+      "Aretaeus of Cappadocia",
+      "Hippocrates",
+      "Soranus"
+  ],
+  "Medical_Latin": [
+      "Dioscorides Pedianus",
+      "Galen",
+      "Rufus of Ephesus"
+  ],
+  "Philology_Greek": [
+      "Aristophanes of Byzantium",
+      "Cratetis Epistulae"
+  ],
+  "Novelists_Greek": [
+      "Heliodorus of Emesa"
+  ],
+  "Planetarium":[
+    "Manilius",
+    "Claudius Ptolemaeus",
+    "Aratus Solensis",
+    "Eratosthenes",
+    "Vitruvius Pollio",
+    "Germanicus",
+    "Hyginus",
+    "Nigidius Figulus"
+  ],
+  "Late_Antique_Letters":[
+    "Sidonius",
+    "Ruricius"
+  ]
+}

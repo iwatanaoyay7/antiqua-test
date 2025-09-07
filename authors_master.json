@@ -1,0 +1,1940 @@
+{
+  "authors": {
+    "Aeschylus": {
+      "works": [
+        "Agamemnon",
+        "Eumenides",
+        "Libation Bearers",
+        "Persians",
+        "Prometheus Bound",
+        "Seven Against Thebes",
+        "Supplices"
+      ],
+      "genres": [
+        "Tragedy_Greek"
+      ]
+    },
+    "Albinus": {
+      "works": [
+        "Handbook of Platonism",
+        "Introduction to Plato's Dialogues"
+      ],
+      "genres": [
+        "Middle_Platonism"
+      ]
+    },
+    "Alexander of Aphrodisias": {
+      "works": [
+        "De anima",
+        "De anima libri mantissa",
+        "De fato",
+        "De febribus [Sp.]",
+        "De mixtione",
+        "In Aristotelis Meteorologicorum Libros Commentaria",
+        "In Aristotelis Sophisticos Elenchos Commentarius [Sp.]",
+        "In Aristotelis analyticorum priorum librum I commentarium",
+        "In Aristotelis metaphysica commentaria",
+        "In Aristotelis topicorum libros octo commentaria",
+        "In Librum De Sensu Commentarium",
+        "Praeter Commentaria Scripta Minora [Sp.]",
+        "Quaestiones [Sp.]"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Ammonius": {
+      "works": [
+        "In Aristotelis Analyticorum Priorum Librum I Commentarium",
+        "In Aristotelis Categorias Commentarius",
+        "In Aristotelis Librum De Interpretatione Commentarius",
+        "In Aristotelis analytica priora [Sp.]",
+        "In Porphyrii Isagogen Sive Quinque Voces"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Anonymous Commentator on Aristotle": {
+      "works": [
+        "Anonymi in analyticorum posteriorum librum alterum commentarium",
+        "Fragmentum commentarii in Aristotelis rhetorica",
+        "Fragmentum paraphrasis in Aristotelis rhetorica",
+        "In Aristotelis artem rhetoricam commentarium",
+        "In Aristotelis sophisticos elenchos paraphrasis",
+        "In ethica Nicomachea paraphrasis",
+        "Paraphrasis categoriarum"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Antiphon of Athens": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy",
+        "Sophists"
+      ]
+    },
+    "Antisthenes": {
+      "works": [
+        "Ajax",
+        "Odysseus"
+      ],
+      "genres": [
+        "Minor_Socratic_Schools"
+      ]
+    },
+    "Apollodorus": {
+      "works": [
+        "Epitome",
+        "Library"
+      ],
+      "genres": [
+        "Epic_Greek"
+      ]
+    },
+    "Apollonius Rhodius": {
+      "works": [
+        "Argonautica"
+      ],
+      "genres": [
+        "Epic_Greek"
+      ]
+    },
+    "Apuleius": {
+      "works": [
+        "Apologia",
+        "Florida",
+        "Metamorphoses"
+      ],
+      "genres": [
+        "Middle_Platonism"
+      ]
+    },
+    "Aratus Solensis": {
+      "works": [
+        "Phaenomena"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Archytas of Tarentum": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy",
+        "Pythagorean_School"
+      ]
+    },
+    "Aretaeus of Cappadocia": {
+      "works": [
+        "De causis et signis acutorum morborum",
+        "De causis et signis diuturnorum morborum",
+        "De curatione acutorum morborum",
+        "De curatione diuturnorum morborum"
+      ],
+      "genres": [
+        "Medical_Greek"
+      ]
+    },
+    "Aristophanes": {
+      "works": [
+        "Acharnians",
+        "Birds",
+        "Clouds",
+        "Ecclesiazusae",
+        "Frogs",
+        "Kights",
+        "Lysistrata",
+        "Peace",
+        "Thesmophoriazusae",
+        "Wasps",
+        "Wealth"
+      ],
+      "genres": [
+        "Comedy_Greek",
+        "Socrates"
+      ]
+    },
+    "Aristophanes of Byzantium": {
+      "works": [
+        "Historiae Animalium Epitome"
+      ],
+      "genres": [
+        "Philology_Greek"
+      ]
+    },
+    "Aristotle": {
+      "works": [
+        "Categories",
+        "Constitution of Athens",
+        "De interpretatione",
+        "Divisiones Aristoteleae",
+        "Economics",
+        "Epistulae",
+        "Eudemian Ethics",
+        "Generation of Animals",
+        "History of Animals",
+        "Magna Moralia",
+        "Mechanica",
+        "Metaphysics",
+        "Meteorologica",
+        "Movement of Animals",
+        "Nicomachean Ethics",
+        "On Breath",
+        "On Colours",
+        "On Divination in Sleep",
+        "On Dreams",
+        "On Generation and Corruption",
+        "On Indivisible Lines",
+        "On Length and Shortness of Life",
+        "On Marvellous Things Heard",
+        "On Melissus, Xenophanes, and Gorgias",
+        "On Memory and Reminiscence",
+        "On Plants",
+        "On Respiration",
+        "On Sleep",
+        "On Things Heard",
+        "On Youth and Old Age, Life and Death",
+        "On the Heavens",
+        "On the Soul",
+        "Parts of Animals",
+        "Physica",
+        "Physiognomonica",
+        "Poetics",
+        "Politics",
+        "Posterior Analytics",
+        "Prior Analytics",
+        "Problemata",
+        "Progression of Animals",
+        "Rhetoric",
+        "Sense and Sensibilia",
+        "Sophistical Refutations",
+        "The Situations and Names of Winds",
+        "Topica",
+        "Virtues and Vices"
+      ],
+      "genres": [
+        "Peripatetic_School"
+      ]
+    },
+    "Aristoxenus": {
+      "works": [
+        "Elementa Harmonica"
+      ],
+      "genres": [
+        "Peripatetic_School"
+      ]
+    },
+    "Artemidorus": {
+      "works": [
+        "Onirocriticon"
+      ],
+      "genres": [
+        "Uncategorized"
+      ]
+    },
+    "Asclepius": {
+      "works": [
+        "In Aristotelis Metaphysicorum Libros A-Z Commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Aspasius": {
+      "works": [
+        "In Ethica Nicomachea paraphrasis"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Augustine": {
+      "works": [
+        "Adnotationes in Iob",
+        "Breviculus Collationis cum Donatistis",
+        "Commonitorium",
+        "Confessiones",
+        "Contra Academicos",
+        "Contra Adimantum",
+        "Contra Cresconium",
+        "Contra Duas Epistulas Pelegianorum",
+        "Contra Epistulam Parmeniani",
+        "Contra Faustum",
+        "Contra Felicem",
+        "Contra Fortunatum",
+        "Contra Gaudentium Donatistarum Episcopum",
+        "Contra Litteras Petiliani",
+        "Contra Mendacium",
+        "Contra Partem Donati Post Gesta",
+        "Contra Secundinem",
+        "Contra epistulam fundamenti",
+        "De Baptismo",
+        "De Beata Vita",
+        "De Bono Viduitatis",
+        "De Civitate Dei",
+        "De Conjugiis Adulterinis",
+        "De Consensu Evangelistarum",
+        "De Continentia",
+        "De Cura pro Mortuis Gerenda ad Paulinum Episcopum",
+        "De Fide et Operibus",
+        "De Fide et Symbolo",
+        "De Genesi Ad Litteram",
+        "De Genesi Ad Litteram Imperfectus Liber",
+        "De Gestis Pelagii",
+        "De Gratia Christ",
+        "De Mendacio",
+        "De Natura Boni",
+        "De Natura et Gratia",
+        "De Natura et Origine Animae",
+        "De Nuptiis et Concupiscentia",
+        "De Opere Monachorum",
+        "De Ordine",
+        "De Patientia",
+        "De Peccato Originali",
+        "De Peccatorum Meritis et Remissione et de Baptismo Parvulorum",
+        "De Perfectione Iustitiae Hominis",
+        "De Sancta Virginitate",
+        "De Spiritu et Littera",
+        "De Utilitate Credendi",
+        "De agone christiano",
+        "De bono coniugali",
+        "De diuinatione daemonum",
+        "Du Duabus Animabus",
+        "Epistula ad Catholicos de Secta Donatistarum",
+        "Epistulae",
+        "Gesta cum Emerito Donatistarum Episcopum",
+        "Libellus Adversus Fulgentium Donatistam",
+        "Liber de Divinis Scripturis sive Speculum quod fertur S. Augustini",
+        "Liber de Unico Baptismo",
+        "Liber qui appellatur Speculum",
+        "Locutiones in Heptateuchum",
+        "Psalmus Contra Partem Donati",
+        "Quaestiones in Heptateuchum",
+        "Retractationum",
+        "Sermo ad Caesariensis Ecclesiae Plebem",
+        "Sermo de Rusticiano subdiacono"
+      ],
+      "genres": [
+        "Church_Fathers"
+      ]
+    },
+    "Boethius": {
+      "works": [
+        "De Fide Catholica",
+        "De consolatione philosophiae",
+        "Liber De Persona et Duabus Naturis Contra Eutychen Et Nestorium",
+        "Quomodo Substantiae in Eo Quod Sint Bonae Sint Cum Non Sint Substantialia Bona",
+        "Quomodo Trinitas Unus Deus Ac Non Tres Dii (De Trinitate)",
+        "Utrum Pater Et Filius Ac Spiritus Sanctus De Divinitate Substantialiter Praedicentur Liber"
+      ],
+      "genres": [
+        "Roman_Philosophy"
+      ]
+    },
+    "Caesar": {
+      "works": [
+        "De bello Civili",
+        "De bello Gallico"
+      ],
+      "genres": [
+        "Roman_History"
+      ]
+    },
+    "Chrysippus": {
+      "works": [
+        "Fragmenta Chrysippi, quae ad explicationem carminum Homericorum pertinent",
+        "Fragmenta Logica et Physica",
+        "Fragmenta Moralia",
+        "Fragmenta ad singulos libros relata"
+      ],
+      "genres": [
+        "Stoicism"
+      ]
+    },
+    "Cicero": {
+      "works": [
+        "Academica",
+        "Brutus",
+        "Cum Senatui gratias egit",
+        "Cum populo gratias egi",
+        "De Divinatione",
+        "De Fato",
+        "De Imperio Cn. Pompei Ad Quirites",
+        "De Inventione",
+        "De Officiis",
+        "De Optimo Genere Oratorum",
+        "De Oratore",
+        "De Partitione Oratoria",
+        "De Republica",
+        "De Senectute",
+        "De domo sua ad pontifices",
+        "De haruspicum responso in P. Clodium",
+        "De lege agraria",
+        "De provinciis consularibus",
+        "Divinatio in Q. Caecilium",
+        "Epistulae ad Familiares",
+        "In C. Verrem",
+        "In L. Calpurnium Pisonem",
+        "In L. Catilinam",
+        "In P. Vatinium testem interrogatio",
+        "Laelius De Amicitia",
+        "Letters to Atticus",
+        "Letters to and from Brutus",
+        "Letters to and from Quintus",
+        "Lucullus",
+        "Orator",
+        "Paradoxa stoicorum ad M. Brutum",
+        "Philippicae",
+        "Pro A. Caecina",
+        "Pro A. Cluentio",
+        "Pro Archia Poeta",
+        "Pro C. Rabirio Perduellionis Reo Ad Quirites",
+        "Pro C. Rabirio Postumo",
+        "Pro Cn. Plancio",
+        "Pro Fonteio",
+        "Pro L. Cornelio Balbo",
+        "Pro L. Flacco",
+        "Pro L. Murena",
+        "Pro M. Caelio",
+        "Pro M. Marcello",
+        "Pro M. Scauro",
+        "Pro M. Tullio",
+        "Pro P. Quinctio",
+        "Pro P. Sestio",
+        "Pro P. Sulla",
+        "Pro Q. Ligario",
+        "Pro Rege Deiotaro",
+        "Pro S. Roscio Amerino",
+        "Pro T. Annio Milone",
+        "Quintus Roscius",
+        "Timaeus",
+        "Topica",
+        "Tusculanae Disputationes",
+        "de Finibus Bonorum et Malorum",
+        "de Natura Deorum"
+      ],
+      "genres": [
+        "Oratory_Latin",
+        "Roman_Philosophy"
+      ]
+    },
+    "Claudius Ptolemaeus": {
+      "works": [
+        "Musica",
+        "Syntaxis Mathematica",
+        "Tetrabiblos"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Cleanthes": {
+      "works": [
+        "Testimonia et Fragmenta"
+      ],
+      "genres": [
+        "Stoicism"
+      ]
+    },
+    "Clement of Alexandria": {
+      "works": [
+        "Eclogae propheticae",
+        "Excerpta ex Theodoto",
+        "Exhortation to Endurance or To the Newly Baptized (Fragment 44)",
+        "Paedagogus",
+        "Protrepticus",
+        "Quis Dis Salvetur",
+        "Stromata (Books I-VI)"
+      ],
+      "genres": [
+        "Church_Fathers"
+      ]
+    },
+    "Cratetis Epistulae": {
+      "works": [
+        "Epistulae"
+      ],
+      "genres": [
+        "Philology_Greek"
+      ]
+    },
+    "Critias": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Minor_Socratic_Schools"
+      ]
+    },
+    "David": {
+      "works": [
+        "In Porphyrii isagogen commentarium",
+        "Prolegomena philosophiae"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Democritus": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Epicureanism",
+        "Pre-Socratic_Philosophy"
+      ]
+    },
+    "Demosthenes": {
+      "works": [
+        "Against Androtion",
+        "Against Apaturius",
+        "Against Aphobus I",
+        "Against Aphobus II",
+        "Against Aphobus III",
+        "Against Aristocrates",
+        "Against Aristogeiton I",
+        "Against Aristogeiton II",
+        "Against Boeotus I",
+        "Against Boeotus II",
+        "Against Callicles",
+        "Against Conon",
+        "Against Dionysodorus",
+        "Against Eubulides",
+        "Against Evergus And Mnesibulus",
+        "Against Lacritus",
+        "Against Leochares",
+        "Against Leptines",
+        "Against Macartatus",
+        "Against Meidias",
+        "Against Nausimachus and Xenopeithes",
+        "Against Olympiodorus",
+        "Against Onetor I",
+        "Against Onetor II",
+        "Against Pantaenetus",
+        "Against Phaenippus",
+        "Against Phormio",
+        "Against Spudias",
+        "Against Theocrines",
+        "Against Timocrates",
+        "Against Zenothemis",
+        "Answer to Philip's Letter",
+        "Apollodorus Against Callipus",
+        "Apollodorus Against Neaera",
+        "Apollodorus Against Nicostratus",
+        "Apollodorus Against Polycles",
+        "Apollodorus Against Stephanus I",
+        "Apollodorus Against Stephanus II",
+        "Apollodorus Against Timotheus",
+        "Exordia",
+        "First Olynthiac",
+        "First Philippic",
+        "For Phormio",
+        "For the Liberty of the Rhodians",
+        "For the People of Megalopolis",
+        "Fourth Philippic",
+        "Letters",
+        "On Halonnesus",
+        "On Organization",
+        "On The Trierarchic Crown",
+        "On the Chersonese",
+        "On the Crown",
+        "On the Embassy",
+        "On the Navy-Boards",
+        "On the Peace",
+        "On the Treaty with Alexander",
+        "Philip’s Letter",
+        "Second Olynthiac",
+        "Second Philippic",
+        "The Erotic Essay",
+        "The Funeral Speech",
+        "Third Olynthiac",
+        "Third Philippic"
+      ],
+      "genres": [
+        "Oratory_Greek"
+      ]
+    },
+    "Dexippus": {
+      "works": [
+        "In Aristotelis categorias commentarium"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Dio Chrysostom": {
+      "works": [
+        "Orationes"
+      ],
+      "genres": [
+        "Oratory_Greek"
+      ]
+    },
+    "Diodorus Siculus": {
+      "works": [
+        "Historical Library"
+      ],
+      "genres": [
+        "Greek_History",
+        "Roman_History"
+      ]
+    },
+    "Diogenes Laertius": {
+      "works": [
+        "Vitae Philosophorum"
+      ],
+      "genres": [
+        "Biography"
+      ]
+    },
+    "Diogenes of Apollonia": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy"
+      ]
+    },
+    "Dionysius Periegetes": {
+      "works": [
+        "Orbis Descriptio"
+      ],
+      "genres": [
+        "Uncategorized"
+      ]
+    },
+    "Dioscorides Pedianus": {
+      "works": [
+        "De materia medica",
+        "Euporista vel De simplicibus medicinis"
+      ],
+      "genres": [
+        "Medical_Latin"
+      ]
+    },
+    "Elias": {
+      "works": [
+        "Eliae (olim Davidis) in Aristotelis categorias commentarium",
+        "In Porphyrii isagogen"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Epicharmus": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy"
+      ]
+    },
+    "Epictetus": {
+      "works": [
+        "Discourses",
+        "Fragments",
+        "Gnomology",
+        "The Handbook"
+      ],
+      "genres": [
+        "Stoicism"
+      ]
+    },
+    "Epicurus": {
+      "works": [
+        "Epistula Secunda ad Pythoclem",
+        "Epistula Tertia ad Menoeceum",
+        "Epistula ad Herodotum",
+        "Gnomologium Vaticanum Epicureum",
+        "Ratae Sententiae"
+      ],
+      "genres": [
+        "Epicureanism"
+      ]
+    },
+    "Eratosthenes": {
+      "works": [
+        "Catasterismi (Epitome)",
+        "Catasterismi (Fragmenta Vaticana)"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Euripides": {
+      "works": [
+        "Alcestis",
+        "Andromache",
+        "Bacchae",
+        "Electra",
+        "Hecuba",
+        "Helen",
+        "Heracleidae",
+        "Heracles",
+        "Hippolytus",
+        "Ion",
+        "Iphigenia Among the Tauri",
+        "Iphigenia in Aulis",
+        "Medea",
+        "Orestes",
+        "Rhesus",
+        "The Cyclops",
+        "The Phoenician Maidens",
+        "The Suppliants",
+        "The Trojan Women"
+      ],
+      "genres": [
+        "Tragedy_Greek"
+      ]
+    },
+    "Eustratius": {
+      "works": [
+        "In Aristotelis Ethica Nicomachea I Commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Galen": {
+      "works": [
+        "Ad Glauconem de methodo medendi",
+        "Adhortatio ad artes addiscendas",
+        "Adversus Lycum",
+        "Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt",
+        "Adversus eos qui de typis scripserunt vel de circuitibus",
+        "An in arteriis sanguis contineatur",
+        "Ars Medica",
+        "De Humero iis Modis Prolapso quos Hippocrates non Vidit",
+        "De alimentorum facultatibus",
+        "De anatomicis administrationibus",
+        "De animi cuiuslibet peccatorum dignotione et curatione",
+        "De antidotis",
+        "De atra bile",
+        "De bono habitu",
+        "De causis morborum",
+        "De causis pulsuum",
+        "De causis respirationis",
+        "De comate secundum Hippocratem",
+        "De compositione medicamentorum per genera",
+        "De compositione medicamentorum secundum locos I-VI",
+        "De constitutione artis medicae ad Patrophilum",
+        "De consuetudinibus",
+        "De crisibus",
+        "De curandi ratione per venae sectionem",
+        "De diebus decretoriis",
+        "De differentiis febrium",
+        "De differentiis pulsuum",
+        "De difficultate respirationis",
+        "De dignoscendis pulsibus",
+        "De dignotione ex insomniis",
+        "De elementis ex Hippocrate",
+        "De experientia medica",
+        "De foetuum formatione",
+        "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione",
+        "De inaequali intemperie",
+        "De instrumento odoratus",
+        "De locis affectis",
+        "De marcore",
+        "De methodo medendi",
+        "De morborum differentiis",
+        "De morborum temporibus",
+        "De motu musculorum",
+        "De musculorum dissectione ad tirones",
+        "De naturalibus facultatibus",
+        "De nervorum dissectione",
+        "De optima corporis nostri constitutione",
+        "De optima doctrina",
+        "De ossibus ad tirones",
+        "De parvae pilae exercitio",
+        "De placitis Hippocratis et Platonis",
+        "De plenitudine",
+        "De praenotione ad Epigenem",
+        "De praesagitione ex pulsibus",
+        "De propriorum animi cuiuslibet affectuum dignotione et curatione",
+        "De ptisana",
+        "De pulsibus ad tirones",
+        "De purgantium medicamentorum facultate",
+        "De rebus boni malique suci",
+        "De sanitate tuenda",
+        "De sectis ad eos qui introducuntur",
+        "De semine",
+        "De simplicium medicamentorum temperamentis ac facultatibus I-VI",
+        "De sophismatis seu captionibus penes dictionem",
+        "De substantia facultatum naturalium fragmentum",
+        "De symptomatum causis",
+        "De symptomatum differentiis",
+        "De temperamentis",
+        "De theriaca ad Pisonem",
+        "De totius morbi temporibus",
+        "De tremore, palpitatione, convulsione et rigore",
+        "De tumoribus praeter naturam",
+        "De typis",
+        "De usu partium corporis humani I-XI",
+        "De usu pulsuum",
+        "De uteri dissectione",
+        "De utilitate respirationis",
+        "De venae sectione adversus Erasistrateos Romae degentes",
+        "De venae sectione adversus Erasistratum",
+        "De venarum arteriarumque dissectione",
+        "De venereis",
+        "De victu attenuante",
+        "In Hippocratis Aphorismos",
+        "In Hippocratis De articulis",
+        "In Hippocratis De fracturis",
+        "In Hippocratis De natura hominis",
+        "In Hippocratis De officina medici",
+        "In Hippocratis De victu acutorum",
+        "In Hippocratis Epidemiarum I",
+        "In Hippocratis Prognosticum",
+        "In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius",
+        "Institutio logica",
+        "Pro puero epileptico consilium",
+        "Quod animi mores corporis temperamenta sequantur",
+        "Quod optimus medicus sit quoque philosophus",
+        "Quos quibus catharticis medicamentis et quando purgare oporteat",
+        "Synopsis librorum suorum de pulsibus",
+        "Thrasybulus sive utrum medicinae sit an gymnasticae hygieine"
+      ],
+      "genres": [
+        "Medical_Latin"
+      ]
+    },
+    "Germanicus": {
+      "works": [
+        "Claudi Caesaris Arati Phaenomena"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Gorgias of Leontini": {
+      "works": [
+        "Defence of Palamedes",
+        "Encomium of Helen"
+      ],
+      "genres": [
+        "Oratory_Greek",
+        "Pre-Socratic_Philosophy",
+        "Sophists"
+      ]
+    },
+    "Heliodorus of Emesa": {
+      "works": [
+        "Aethiopica"
+      ],
+      "genres": [
+        "Novelists_Greek"
+      ]
+    },
+    "Heraclitus of Ephesus": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy"
+      ]
+    },
+    "Herodotus": {
+      "works": [
+        "Histories"
+      ],
+      "genres": [
+        "Greek_History"
+      ]
+    },
+    "Hesiod": {
+      "works": [
+        "Shield of Heracles",
+        "Theogony",
+        "Works and Days"
+      ],
+      "genres": [
+        "Epic_Greek"
+      ]
+    },
+    "Hippias of Elis": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Minor_Socratic_Schools",
+        "Pre-Socratic_Philosophy",
+        "Sophists"
+      ]
+    },
+    "Hippocrates": {
+      "works": [
+        "Aphorismi",
+        "Coa praesagia",
+        "De aere, aquis, locis",
+        "De affectionibus",
+        "De affectionibus interioribus",
+        "De alimento",
+        "De anatomia",
+        "De arte",
+        "De articulis",
+        "De capitis vulneribus",
+        "De carnibus",
+        "De corde",
+        "De crisibus",
+        "De dentitione",
+        "De diaeta",
+        "De diaeta acutorum (spurium)",
+        "De diaeta in morbis acutis",
+        "De diebus criticis",
+        "De exsectione foetus",
+        "De fistulis",
+        "De flatibus",
+        "De fracturis",
+        "De genitura",
+        "De glandulis",
+        "De habitu decenti",
+        "De haemorrhoidibus",
+        "De humoribus",
+        "De liquidorum usu",
+        "De locis in homine",
+        "De medico",
+        "De morbis i-iii",
+        "De morbo sacro",
+        "De muliebribus",
+        "De natura hominis",
+        "De natura muliebri",
+        "De natura ossium",
+        "De natura pueri",
+        "De octimestri partu",
+        "De officina medici",
+        "De prisca medicina",
+        "De salubri diaeta",
+        "De superfoetatione",
+        "De ulceribus",
+        "De virginum morbis",
+        "De visu",
+        "Epidemiarum",
+        "Epistulae, Decretum, Orationes",
+        "Iusiurandum",
+        "Lex",
+        "Praeceptiones",
+        "Prognosticon",
+        "Prorrheticon I",
+        "Vectiarius"
+      ],
+      "genres": [
+        "Medical_Greek"
+      ]
+    },
+    "Homer": {
+      "works": [
+        "Iliad",
+        "Odyssey"
+      ],
+      "genres": [
+        "Epic_Greek"
+      ]
+    },
+    "Horatius": {
+      "works": [
+        "Carmen Saeculare",
+        "Carmina",
+        "De Arte Poetica liber",
+        "Epistulae",
+        "Epodon",
+        "Satyrarum libri"
+      ],
+      "genres": [
+        "Lyric_Latin"
+      ]
+    },
+    "Hyginus": {
+      "works": [
+        "Astronomica"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Iamblichus": {
+      "works": [
+        "De Mysteriis",
+        "De Vita Pythagorica",
+        "De communi mathematica scientia",
+        "In Nicomachi Arithmeticam Introductionem",
+        "Protrepticus"
+      ],
+      "genres": [
+        "Neoplatonism"
+      ]
+    },
+    "Isocrates": {
+      "works": [
+        "Aegineticus",
+        "Against Callimachus",
+        "Against Euthynus",
+        "Against Lochites",
+        "Against the Sophists",
+        "Antidosis",
+        "Archidamus",
+        "Areopagiticus",
+        "Busiris",
+        "Concerning the Team of Horses",
+        "Evagoras",
+        "Helen",
+        "Nicocles or the Cyprians",
+        "On the Peace",
+        "Panathenaicus",
+        "Panegyricus",
+        "Plataicus",
+        "To Alexander",
+        "To Antipater",
+        "To Archidamus",
+        "To Demonicus",
+        "To Dionysius",
+        "To Nicocles",
+        "To Philip",
+        "To Philip, I",
+        "To Philip, II",
+        "To Timotheus",
+        "To the Children of Jason",
+        "To the Rulers of the Mytilenaeans",
+        "Trapeziticus"
+      ],
+      "genres": [
+        "Oratory_Greek"
+      ]
+    },
+    "Juvenal": {
+      "works": [
+        "Saturae"
+      ],
+      "genres": [
+        "Satire_Latin"
+      ]
+    },
+    "Lucretius": {
+      "works": [
+        "De Rerum Natura"
+      ],
+      "genres": [
+        "Epicureanism",
+        "Roman_Philosophy"
+      ]
+    },
+    "Lysias": {
+      "works": [
+        "Accusation of Calumny",
+        "Against Agoratus",
+        "Against Alcibiades 1",
+        "Against Alcibiades 2",
+        "Against Andocides",
+        "Against Diogeiton",
+        "Against Epicrates and his Fellow-envoys",
+        "Against Eratosthenes",
+        "Against Ergocles",
+        "Against Nicomachus",
+        "Against Pancleon",
+        "Against Philocrates",
+        "Against Philon",
+        "Against Simon- Defense",
+        "Against The Corn-Dealers",
+        "Against The Subversion of the Ancestral Constitution",
+        "Against Theomnestus 1",
+        "Against Theomnestus 2",
+        "Before the Areopagus- Defense in the Matter of the Olive Stump",
+        "Defence Against A Charge Of Taking Bribes",
+        "Defense Against a Charge of Subverting the Democracy",
+        "For Callias",
+        "For Polystratus",
+        "For The Soldier",
+        "Funeral Oration",
+        "In Defense of Mantitheus",
+        "Olympic Oration",
+        "On A Wound By Premeditation",
+        "On The Property Of Eraton",
+        "On The Property Of The Brother Of Nicias- Peroration",
+        "On The Refusal Of A Pension",
+        "On the Murder of Eratosthenes",
+        "On the Property of Aristophanes",
+        "On the Scrutiny of Evandros"
+      ],
+      "genres": [
+        "Oratory_Greek"
+      ]
+    },
+    "Manilius": {
+      "works": [
+        "Astronomica"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Marcus Aurelius": {
+      "works": [
+        "Meditations"
+      ],
+      "genres": [
+        "Stoicism"
+      ]
+    },
+    "Michael of Ephesus": {
+      "works": [
+        "In Librum De Animalium Incessu Commentarium",
+        "In Librum De Animalium Motione Commentarium",
+        "In Librum Quintum Ethicorum Nicomacheorum Commentarium",
+        "In libros de partibus animalium",
+        "In parva naturalia commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Nicander of Colophon": {
+      "works": [
+        "Alexipharmaca",
+        "Theriaca"
+      ],
+      "genres": [
+        "Epic_Greek"
+      ]
+    },
+    "Nigidius Figulus": {
+      "works": [
+        "Astrological Fragments"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Olympiodorus": {
+      "works": [
+        "In Aristotelis meteora commentaria",
+        "In Categorias Commentarium",
+        "Prolegomena"
+      ],
+      "genres": [
+        "Aristotle_Commentators",
+        "Neoplatonism"
+      ]
+    },
+    "Ovid": {
+      "works": [
+        "Amores",
+        "Ars Amatoria",
+        "Epistulae",
+        "Ex Ponto",
+        "Fasti",
+        "Ibis",
+        "Medicamina faciei femineae",
+        "Metamorphoses",
+        "Remedia Amoris",
+        "Tristia"
+      ],
+      "genres": [
+        "Epic_Latin"
+      ]
+    },
+    "Palaiphatos": {
+      "works": [
+        "De Incredibilibus"
+      ],
+      "genres": [
+        "Uncategorized"
+      ]
+    },
+    "Parmenides": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy"
+      ]
+    },
+    "Pausanias": {
+      "works": [
+        "Description of Greece"
+      ],
+      "genres": [
+        "Geography"
+      ]
+    },
+    "Philolaus of Croton": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy",
+        "Pythagorean_School"
+      ]
+    },
+    "Philoponus": {
+      "works": [
+        "In Aristotelis Analytica Posteriora Commentaria",
+        "In Aristotelis Categorias Commentarium",
+        "In Aristotelis Libros De Generatione Et Corruptione Commentaria",
+        "In Aristotelis Physicorum Libros Commentaria",
+        "In Libros De Generatione Animalium Commentaria",
+        "in Aristotelis Analytica Priora commentaria",
+        "in Aristotelis Meteorologicorum librum primum commentarium",
+        "in Aristotelis de Anima libros commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Pindar": {
+      "works": [
+        "Isthmian Odes",
+        "Nemean Odes",
+        "Olympian Odes",
+        "Pythian Odes"
+      ],
+      "genres": [
+        "Lyric_Greek"
+      ]
+    },
+    "Plato": {
+      "works": [
+        "Alcibiades 1",
+        "Alcibiades 2",
+        "Apology",
+        "Charmides",
+        "Cleitophon",
+        "Cratylus",
+        "Critias",
+        "Crito",
+        "Epinomis",
+        "Epistles",
+        "Euthydemus",
+        "Euthyphro",
+        "Gorgias",
+        "Greater Hippias",
+        "Hipparchus",
+        "Hippias Minor",
+        "Ion",
+        "Laches",
+        "Laws",
+        "Lovers",
+        "Lysis",
+        "Menexenus",
+        "Meno",
+        "Minos",
+        "Parmenides",
+        "Phaedo",
+        "Phaedrus",
+        "Philebus",
+        "Protagoras",
+        "Republic",
+        "Sophist",
+        "Statesman",
+        "Symposium",
+        "Theaetetus",
+        "Theages",
+        "Timaeus"
+      ],
+      "genres": [
+        "Academy",
+        "Socrates"
+      ]
+    },
+    "Plautus": {
+      "works": [
+        "Amphitruo",
+        "Asinaria",
+        "Aulularia",
+        "Bacchides",
+        "Captivi",
+        "Casina",
+        "Cistellaria",
+        "Curculio",
+        "Epidicus",
+        "Menaechmi",
+        "Mercator",
+        "Miles Gloriosus",
+        "Mostellaria",
+        "Persa",
+        "Poenulus",
+        "Pseudolus",
+        "Rudens",
+        "Stichus",
+        "Trinummus",
+        "Truculentus"
+      ],
+      "genres": [
+        "Comedy_Latin"
+      ]
+    },
+    "Pliny the Elder": {
+      "works": [
+        "Naturalis Historia"
+      ],
+      "genres": [
+        "Roman_History"
+      ]
+    },
+    "Pliny the Younger": {
+      "works": [
+        "Letters"
+      ],
+      "genres": [
+        "Uncategorized"
+      ]
+    },
+    "Plotinus": {
+      "works": [
+        "Enneades"
+      ],
+      "genres": [
+        "Neoplatonism"
+      ]
+    },
+    "Plutarch": {
+      "works": [
+        "A Discourse Concerning Socrates's Daemon",
+        "A breviate of a discourse",
+        "A letter of Condolence to Apollonius",
+        "Advice About Keeping Well",
+        "Advice to Bride and Groom",
+        "Aemilius Paulus",
+        "Against Colotes, the Disciple and Favorite of Epicurus",
+        "Agesilaus",
+        "Agis",
+        "Alcibiades",
+        "Alexander",
+        "Antony",
+        "Aratus",
+        "Aristides",
+        "Artaxerxes",
+        "Beasts are rational",
+        "Bravery of Women",
+        "Brutus",
+        "Caesar",
+        "Caius Marcius Coriolanus",
+        "Caius Marius",
+        "Camillus",
+        "Can Virtue Be Taught-",
+        "Cato the Younger",
+        "Chance",
+        "Cicero",
+        "Cimon",
+        "Comparison of Agesilaus and Pompey",
+        "Comparison of Agis and Cleomenes and the Gracchi",
+        "Comparison of Alcibiades and Coriolanus",
+        "Comparison of Aristides and Marcus Cato",
+        "Comparison of Demetrius and Antony",
+        "Comparison of Demosthenes with Cicero",
+        "Comparison of Dion and Brutus",
+        "Comparison of Lucullus and Cimon",
+        "Comparison of Lycurgus and Numa",
+        "Comparison of Lysander and Sulla",
+        "Comparison of Nicias and Crassus",
+        "Comparison of Pelopidas and Marcellus",
+        "Comparison of Pericles and Fabius Maximus",
+        "Comparison of Philopoemen and Titus",
+        "Comparison of Sertorius and Eumenes",
+        "Comparison of Solon and Publicola",
+        "Comparison of Timoleon and Aemilius",
+        "Concerning Such Whom God is Slow to Punish",
+        "Concerning Talkativeness",
+        "Concerning the Face which Appears in the Orb Of the Moon",
+        "Concerning the procreation of the soul as discoursed in Timaeus",
+        "Crassus",
+        "De liberis educandis",
+        "Demetrius",
+        "Demosthenes",
+        "Dion",
+        "Eumenes",
+        "Fabius Maximus",
+        "Galba",
+        "Greek and Roman Parallel Stories",
+        "How a Man May Become Aware of His Progress in Virtue",
+        "How a Man May Inoffensively Praise Himself Without Being Liable to Envy",
+        "How the Young Man Should Study Poetry",
+        "How to Profit By One's Enemies",
+        "How to Tell a Flatterer from a Friend",
+        "Instituta Laconica",
+        "Isis and Osiris",
+        "Love Stories",
+        "Lucullus",
+        "Lycurgus",
+        "Lysander",
+        "Marcellus",
+        "Marcus Cato",
+        "Nicias",
+        "Numa",
+        "Of Banishment, or Flying One's Country",
+        "Of Bashfulness",
+        "Of Envy and Hatred",
+        "Of Fate",
+        "Of Herodotus's Malice",
+        "Of Love",
+        "Of common conceptions, against the Stoics",
+        "Of the Love of Wealth",
+        "On Affection for Offspring",
+        "On Being a Busybody",
+        "On Brotherly Love",
+        "On Having Many Friends",
+        "On Listening to Lectures",
+        "On Monarchy, Democracy, and Oligrachy",
+        "On Moral Virtue",
+        "On Tranquillity of Mind",
+        "On the Control of Anger",
+        "On the Fortune of the Romans",
+        "On the Fortune or the Virtue of Alexander I and II",
+        "On the Principle of Cold",
+        "On the eating of flesh I",
+        "On the eating of flesh II",
+        "Otho",
+        "Pelopidas",
+        "Pericles",
+        "Philopoemen",
+        "Phocion",
+        "Plutarch's Consolatory Letter to His Wife",
+        "Plutarch's Natural Questions",
+        "Plutarch's Platonic questions",
+        "Pompey",
+        "Precepts of Statecraft",
+        "Publicola",
+        "Pyrrhus",
+        "Romulus",
+        "Sayings of Kings and Commanders",
+        "Sayings of Spartan Women",
+        "Sayings of Spartans",
+        "Sertorius",
+        "Solon",
+        "Sulla",
+        "Summary of a Comparison Between Aristophanes and Menander",
+        "Superstition",
+        "Symposiacs",
+        "That a Philosopher Ought to Converse Especially with Men in Power",
+        "That it is Not Possible to Live Pleasurably According to the Doctrine of Epicurus",
+        "That we Ought not to Borrow",
+        "The Dinner of the Seven Wise Men",
+        "The Greek Questions",
+        "The Lives of the Ten Orators",
+        "The Obsolesence of Oracles",
+        "The Oracle at Delphie no Longer Given in Verse",
+        "The Roman Questions",
+        "The contradictions of the Stoics",
+        "The Ε at Delphi",
+        "Themistocles",
+        "Theseus",
+        "Tiberius Gracchus",
+        "Timoleon",
+        "Titus Flamininus",
+        "To an Uneducated Ruler",
+        "Virtue and Vice",
+        "Were the Athenians More Famous in War or in Wisdom-",
+        "Whether 'Twere Rightly Said, Live Concealed",
+        "Whether an Old Man Should Engage in Public Affairs",
+        "Whether fire or water is most useful",
+        "Whether land or sea animals are cleverer",
+        "Whether the Affections of the Soul are Worse Than Those of the Body",
+        "Whether vice be sufficient to cause unhappiness",
+        "Ἐπιτομὴ τοῦ περὶ τῆς ἐν τῷ Τιμαίῳ ψυχογονίας"
+      ],
+      "genres": [
+        "Biography",
+        "Middle_Platonism"
+      ]
+    },
+    "Porphyry": {
+      "works": [
+        "Ad Marcellam",
+        "De abstinentia",
+        "Historia philosophiae (fragmenta)",
+        "In Aristotelis categorias expositio per interrogationem et responsionem",
+        "Isagoge sive quinque voces",
+        "Quaestionum Homericanum ad Iliadem pertinentium reliquiae",
+        "Vita Pythagorae",
+        "Zetemata codicis Vaticani"
+      ],
+      "genres": [
+        "Aristotle_Commentators",
+        "Neoplatonism"
+      ]
+    },
+    "Proclus": {
+      "works": [
+        "In Platonis Rem Publicam Commentarii"
+      ],
+      "genres": [
+        "Aristotle_Commentators",
+        "Neoplatonism"
+      ]
+    },
+    "Prodicus": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Pre-Socratic_Philosophy",
+        "Sophists"
+      ]
+    },
+    "Rufus of Ephesus": {
+      "works": [
+        "De renum et vesicae affectionibus"
+      ],
+      "genres": [
+        "Medical_Latin"
+      ]
+    },
+    "Ruricius": {
+      "works": [
+        "Epistulae"
+      ],
+      "genres": [
+        "Late_Antique_Letters"
+      ]
+    },
+    "Seneca": {
+      "works": [
+        "Ad Lucilium Epistulae Morales",
+        "Agamemnon",
+        "Apocolocyntosis",
+        "De Beneficiis",
+        "De Brevitate Vitae",
+        "De Clementia",
+        "De Consolatione ad Helviam",
+        "De Consolatione ad Marciam",
+        "De Consolatione ad Polybium",
+        "De Constantia",
+        "De Ira",
+        "De Otio",
+        "De Providentia",
+        "De Tranquillitate Animi",
+        "De Vita Beata",
+        "Hercules Furens",
+        "Hercules Oetaeus",
+        "Medea",
+        "Octavia",
+        "Oedipus",
+        "Phaedra",
+        "Phoenissae",
+        "Thyestes",
+        "Troades"
+      ],
+      "genres": [
+        "Stoicism",
+        "Tragedy_Latin"
+      ]
+    },
+    "Sextus Empiricus": {
+      "works": [
+        "Adversus mathematicos",
+        "Pyrrhoniae hypotyposes"
+      ],
+      "genres": [
+        "Roman_Philosophy",
+        "Scepticism"
+      ]
+    },
+    "Sidonius": {
+      "works": [
+        "Epistulae"
+      ],
+      "genres": [
+        "Late_Antique_Letters"
+      ]
+    },
+    "Simplicius": {
+      "works": [
+        "In Aristotelis Categorias Commentarium",
+        "In Aristotelis libros de anima commentaria [Sp.-] (fort. auctore Prisciano Lydo)",
+        "In Aristotelis physicorum libros commentaria",
+        "In Aristotelis quattuor libros de caelo commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Sophocles": {
+      "works": [
+        "Ajax",
+        "Antigone",
+        "Electra",
+        "Oedipus Tyrannus",
+        "Oedipus at Colonus",
+        "Philoctetes",
+        "Trachiniae",
+        "Tracking Satyrs"
+      ],
+      "genres": [
+        "Tragedy_Greek"
+      ]
+    },
+    "Sophonias": {
+      "works": [
+        "In Aristotelis Libros De Anima Paraphrasis"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Soranus": {
+      "works": [
+        "De Fasciis",
+        "De signis Fracturarum",
+        "Gynaeciorum Libri IV",
+        "Vita Hippocratis Secundum Soranum"
+      ],
+      "genres": [
+        "Medical_Greek"
+      ]
+    },
+    "Speusippus": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Academy"
+      ]
+    },
+    "Stephanus of Alexandria": {
+      "works": [
+        "In Aristotelis librum de interpretatione commentarium"
+      ],
+      "genres": [
+        "Aristotle_Commentators"
+      ]
+    },
+    "Strabo": {
+      "works": [
+        "Geographiae Chrestomathia",
+        "Geography"
+      ],
+      "genres": [
+        "Geography"
+      ]
+    },
+    "Syrianus": {
+      "works": [
+        "In Aristotelis Metaphysica Commentaria"
+      ],
+      "genres": [
+        "Aristotle_Commentators",
+        "Neoplatonism"
+      ]
+    },
+    "Tacitus": {
+      "works": [
+        "Annales",
+        "De Vita Iulii Agricolae",
+        "Dialogus de Oratoribus",
+        "Historia Belli Peloponnesiaci",
+        "Historiae",
+        "de Origine et Situ Germanorum Liber"
+      ],
+      "genres": [
+        "Roman_History"
+      ]
+    },
+    "Themistius": {
+      "works": [
+        "(Sophoniae) In Parva Naturalia Commentarium",
+        "Analyticorum Posteriorum Paraphrasis",
+        "In Aristotelis Metaphysicorum",
+        "In Aristotelis Physica Paraphrasis",
+        "In Libros Aristotelis De Caelo Paraphrasis",
+        "In libros Aristotelis de Anima paraphrasis",
+        "Quae Fertur In Aristotelis Analyticorum Priorum Librum I"
+      ],
+      "genres": [
+        "Aristotle_Commentators",
+        "Oratory_Greek"
+      ]
+    },
+    "Theophrastus": {
+      "works": [
+        "Characters",
+        "Concerning Odours",
+        "De Animi Defectione",
+        "De Lassitudine",
+        "De Nervorum Resolutione",
+        "De Odoribus",
+        "De Signis Tempestatum",
+        "De Sudore",
+        "De Ventis",
+        "De Vertigine",
+        "De lapidibus",
+        "De sensu et sensibilibus",
+        "Enquiry into Plants",
+        "Fragmenta varia (13-190)",
+        "Metaphysics",
+        "On Fire",
+        "On the Causes of Plants"
+      ],
+      "genres": [
+        "Peripatetic_School"
+      ]
+    },
+    "Thucydides": {
+      "works": [
+        "Historiae"
+      ],
+      "genres": [
+        "Greek_History"
+      ]
+    },
+    "Vergil": {
+      "works": [
+        "Aeneid",
+        "Eclogues",
+        "Georgicon"
+      ],
+      "genres": [
+        "Epic_Latin"
+      ]
+    },
+    "Vitruvius Pollio": {
+      "works": [
+        "De Architectura"
+      ],
+      "genres": [
+        "Planetarium"
+      ]
+    },
+    "Xenocrates of Chalcedon": {
+      "works": [
+        "Fragmenta"
+      ],
+      "genres": [
+        "Academy"
+      ]
+    },
+    "Xenophon": {
+      "works": [
+        "Agesilaus",
+        "Anabasis",
+        "Apology",
+        "Constitution of the Lacedaemonians",
+        "Cyropaedia",
+        "Economics",
+        "Hellenica",
+        "Hiero",
+        "Memorabilia",
+        "On Hunting",
+        "On the Art of Horsemanship",
+        "On the Cavalry Commander",
+        "Symposium",
+        "Ways and Means"
+      ],
+      "genres": [
+        "Greek_History",
+        "Socrates"
+      ]
+    }
+  },
+  "genre_index": {
+    "Academy": [
+      "Plato",
+      "Speusippus",
+      "Xenocrates of Chalcedon"
+    ],
+    "Aristotle_Commentators": [
+      "Alexander of Aphrodisias",
+      "Ammonius",
+      "Anonymous Commentator on Aristotle",
+      "Asclepius",
+      "Aspasius",
+      "David",
+      "Dexippus",
+      "Elias",
+      "Eustratius",
+      "Michael of Ephesus",
+      "Olympiodorus",
+      "Philoponus",
+      "Porphyry",
+      "Proclus",
+      "Simplicius",
+      "Sophonias",
+      "Stephanus of Alexandria",
+      "Syrianus",
+      "Themistius"
+    ],
+    "Biography": [
+      "Diogenes Laertius",
+      "Plutarch"
+    ],
+    "Church_Fathers": [
+      "Augustine",
+      "Clement of Alexandria"
+    ],
+    "Comedy_Greek": [
+      "Aristophanes"
+    ],
+    "Comedy_Latin": [
+      "Plautus"
+    ],
+    "Epic_Greek": [
+      "Apollodorus",
+      "Apollonius Rhodius",
+      "Hesiod",
+      "Homer",
+      "Nicander of Colophon"
+    ],
+    "Epic_Latin": [
+      "Ovid",
+      "Vergil"
+    ],
+    "Epicureanism": [
+      "Democritus",
+      "Epicurus",
+      "Lucretius"
+    ],
+    "Geography": [
+      "Pausanias",
+      "Strabo"
+    ],
+    "Greek_History": [
+      "Diodorus Siculus",
+      "Herodotus",
+      "Thucydides",
+      "Xenophon"
+    ],
+    "Late_Antique_Letters": [
+      "Ruricius",
+      "Sidonius"
+    ],
+    "Lyric_Greek": [
+      "Pindar"
+    ],
+    "Lyric_Latin": [
+      "Horatius"
+    ],
+    "Medical_Greek": [
+      "Aretaeus of Cappadocia",
+      "Hippocrates",
+      "Soranus"
+    ],
+    "Medical_Latin": [
+      "Dioscorides Pedianus",
+      "Galen",
+      "Rufus of Ephesus"
+    ],
+    "Middle_Platonism": [
+      "Albinus",
+      "Apuleius",
+      "Plutarch"
+    ],
+    "Minor_Socratic_Schools": [
+      "Antisthenes",
+      "Critias",
+      "Hippias of Elis"
+    ],
+    "Neoplatonism": [
+      "Iamblichus",
+      "Olympiodorus",
+      "Plotinus",
+      "Porphyry",
+      "Proclus",
+      "Syrianus"
+    ],
+    "Novelists_Greek": [
+      "Heliodorus of Emesa"
+    ],
+    "Oratory_Greek": [
+      "Demosthenes",
+      "Dio Chrysostom",
+      "Gorgias of Leontini",
+      "Isocrates",
+      "Lysias",
+      "Themistius"
+    ],
+    "Oratory_Latin": [
+      "Cicero"
+    ],
+    "Peripatetic_School": [
+      "Aristotle",
+      "Aristoxenus",
+      "Theophrastus"
+    ],
+    "Philology_Greek": [
+      "Aristophanes of Byzantium",
+      "Cratetis Epistulae"
+    ],
+    "Planetarium": [
+      "Aratus Solensis",
+      "Claudius Ptolemaeus",
+      "Eratosthenes",
+      "Germanicus",
+      "Hyginus",
+      "Manilius",
+      "Nigidius Figulus",
+      "Vitruvius Pollio"
+    ],
+    "Pre-Socratic_Philosophy": [
+      "Antiphon of Athens",
+      "Archytas of Tarentum",
+      "Democritus",
+      "Diogenes of Apollonia",
+      "Epicharmus",
+      "Gorgias of Leontini",
+      "Heraclitus of Ephesus",
+      "Hippias of Elis",
+      "Parmenides",
+      "Philolaus of Croton",
+      "Prodicus"
+    ],
+    "Pythagorean_School": [
+      "Archytas of Tarentum",
+      "Philolaus of Croton"
+    ],
+    "Roman_History": [
+      "Caesar",
+      "Diodorus Siculus",
+      "Pliny the Elder",
+      "Tacitus"
+    ],
+    "Roman_Philosophy": [
+      "Boethius",
+      "Cicero",
+      "Lucretius",
+      "Sextus Empiricus"
+    ],
+    "Satire_Latin": [
+      "Juvenal"
+    ],
+    "Scepticism": [
+      "Sextus Empiricus"
+    ],
+    "Socrates": [
+      "Aristophanes",
+      "Plato",
+      "Xenophon"
+    ],
+    "Sophists": [
+      "Antiphon of Athens",
+      "Gorgias of Leontini",
+      "Hippias of Elis",
+      "Prodicus"
+    ],
+    "Stoicism": [
+      "Chrysippus",
+      "Cleanthes",
+      "Epictetus",
+      "Marcus Aurelius",
+      "Seneca"
+    ],
+    "Tragedy_Greek": [
+      "Aeschylus",
+      "Euripides",
+      "Sophocles"
+    ],
+    "Tragedy_Latin": [
+      "Seneca"
+    ],
+    "Uncategorized": [
+      "Artemidorus",
+      "Dionysius Periegetes",
+      "Palaiphatos",
+      "Pliny the Younger"
+    ]
+  }
+}

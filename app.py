@@ -230,15 +230,16 @@ def make_rank_payload(doc: Dict[str, Any]) -> str:
     # トークン節約のため改行は少なめ・記号区切りに
     return f"Author: {author} | Work: {work}\nSummary: {summary_en}"
 
-def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]]) -> str:
+def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]], doc_lookup) -> str:
     html = []
     for row in rerank_data:
-        doc = row["document"]
+        rid = str(row["document"].get("id", ""))
+        doc = doc_lookup.get(rid, {}) 
         authors_list = doc.get("author", [])
         authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else (authors_list or "")
         html.append(
             f"<details>"
-            f"<summary>{doc['id'].replace('_', ' ')} / Score: {float(row['score'])}</summary>"
+            f"<summary>{(doc.get('id') or rid).replace('_', ' ')} / Score: {float(row['score'])}</summary>"
             f"<p><strong>Author:</strong> {authors_str} &nbsp;&nbsp; <strong>Work:</strong> {doc.get('work','')}</p>"
             f"<p>{doc.get('chunk_text','')}</p>"
             f"<p><strong>【Summary in English】</strong><br/>{doc.get('text','')}</p>"
@@ -312,19 +313,24 @@ if query:
 
     processed_dense = merge_hits(dense_resp, {"matches": []})
     processed_hybrid = merge_hits(dense_resp, sparse_resp)
+    doc_lookup = { str(d["id"]): d for d in processed_hybrid if d.get("id") }
 
     docs_for_rerank = []
     for d in processed_hybrid:
-        d2 = dict(d)
-        # 1) おすすめ：専用フィールド名を使う
-        d2["rank_payload"] = make_rank_payload(d)
+        rid = str(d.get("id", ""))  # idは必ず文字列
+        if not rid:
+            continue
+        txt = make_rank_payload(d)
+        if not txt:
+            continue
+        docs_for_rerank.append({"id": rid, "text": txt})
 
     # ① rank_payload を使うケース（推奨）
     rerank_hybrid = PC.inference.rerank(
         model="pinecone-rerank-v0",
         query=en_query,
         documents=docs_for_rerank,
-        rank_fields=["rank_payload"],   # ★ 著者・著作＋要約だけを読む
+        rank_fields=["text"],   # ★ 著者・著作＋要約だけを読む
         top_n=CTX_N,
         return_documents=True,
         parameters={"truncate": "END"},
@@ -345,7 +351,7 @@ if query:
         if not rerank_hybrid.data:
             st.warning("該当する文脈が見つかりませんでした。条件を調整してください。")
         else:
-            html_right = build_sources_html_from_rerank(rerank_hybrid.data)
+            html_right = build_sources_html_from_rerank(rerank_hybrid.data, doc_lookup)
             st.markdown(html_right, unsafe_allow_html=True)
 else:
     st.info("上の入力欄にクエリを入力して実行してください。")

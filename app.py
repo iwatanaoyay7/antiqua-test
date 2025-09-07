@@ -235,8 +235,6 @@ def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]], doc_lookup
     for row in rerank_data:
         rid = str(row["document"].get("id", ""))
         doc = doc_lookup.get(rid, {}) 
-        authors_list = doc.get("author", [])
-        authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else (authors_list or "")
         html.append(
             f"<details>"
             f"<summary>{(doc.get('id') or rid).replace('_', ' ')} / Score: {float(row['score'])}</summary>"
@@ -250,8 +248,6 @@ def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]], doc_lookup
 def build_sources_html_from_docs(docs: List[Dict[str, Any]]) -> str:
     html = []
     for d in docs:
-        authors_list = d.get("author", [])
-        authors_str = ", ".join(authors_list) if isinstance(authors_list, list) else (authors_list or "")
         html.append(
             f"<details>"
             f"<summary>{d['id'].replace('_', ' ')} / Score: {float(d['score'])}</summary>"

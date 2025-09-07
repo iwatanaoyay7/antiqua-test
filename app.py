@@ -217,6 +217,18 @@ def merge_hits(resp1, resp2):
     combined.update({h["id"]: h for h in _norm(resp2)})
     return sorted(combined.values(), key=lambda x: x["score"], reverse=True)
 
+def _author_str(v):
+    if isinstance(v, list):
+        return ", ".join(v)
+    return v or ""
+
+def make_rank_payload(doc: Dict[str, Any]) -> str:
+    # 英語のみ・短く：著者／著作を先頭に、次に要約
+    author = _author_str(doc.get("author"))
+    work = doc.get("work", "")
+    summary_en = doc.get("text", "")  # ← index.py では英語要約が "text"
+    # トークン節約のため改行は少なめ・記号区切りに
+    return f"Author: {author} | Work: {work}\nSummary: {summary_en}"
 
 def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]]) -> str:
     html = []
@@ -301,12 +313,18 @@ if query:
     processed_dense = merge_hits(dense_resp, {"matches": []})
     processed_hybrid = merge_hits(dense_resp, sparse_resp)
 
-    # Hybrid: rerank and take top CTX_N
+    docs_for_rerank = []
+    for d in processed_hybrid:
+        d2 = dict(d)
+        # 1) おすすめ：専用フィールド名を使う
+        d2["rank_payload"] = make_rank_payload(d)
+
+    # ① rank_payload を使うケース（推奨）
     rerank_hybrid = PC.inference.rerank(
         model="pinecone-rerank-v0",
         query=en_query,
-        documents=processed_hybrid,
-        rank_fields=["text"],
+        documents=docs_for_rerank,
+        rank_fields=["rank_payload"],   # ★ 著者・著作＋要約だけを読む
         top_n=CTX_N,
         return_documents=True,
         parameters={"truncate": "END"},

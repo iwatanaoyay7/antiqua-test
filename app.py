@@ -240,7 +240,6 @@ def build_sources_html_from_rerank(rerank_data: List[Dict[str, Any]], doc_lookup
         html.append(
             f"<details>"
             f"<summary>{(doc.get('id') or rid).replace('_', ' ')} / Score: {float(row['score'])}</summary>"
-            f"<p><strong>Author:</strong> {authors_str} &nbsp;&nbsp; <strong>Work:</strong> {doc.get('work','')}</p>"
             f"<p>{doc.get('chunk_text','')}</p>"
             f"<p><strong>【Summary in English】</strong><br/>{doc.get('text','')}</p>"
             f"</details>"
@@ -256,7 +255,6 @@ def build_sources_html_from_docs(docs: List[Dict[str, Any]]) -> str:
         html.append(
             f"<details>"
             f"<summary>{d['id'].replace('_', ' ')} / Score: {float(d['score'])}</summary>"
-            f"<p><strong>Author:</strong> {authors_str} &nbsp;&nbsp; <strong>Work:</strong> {d.get('work','')}</p>"
             f"<p>{d.get('chunk_text','')}</p>"
             f"<p><strong>【Summary in English】</strong><br/>{d.get('text','')}</p>"
             f"</details>"

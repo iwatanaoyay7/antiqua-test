@@ -1,7 +1,5 @@
 import os
-import json
 import textwrap
-from datetime import timedelta, timezone
 from typing import Any, Dict, List
 
 import streamlit as st
@@ -35,103 +33,28 @@ def get_clients_no_firebase():
 
 
 OPENAI, GEMINI, OPENROUTER, PC, DENSE_IDX, SPARSE_IDX = get_clients_no_firebase()
-JST = timezone(timedelta(hours=9), "JST")
-
 
 # =========================
 # Helpers (translation, embed, search)
 # =========================
-def translate_query(query_ja: str, dialogue_history: list, selected_authors: list, selected_works: list) -> str:
-    history_str = ""
-    if dialogue_history:
-        history_str = "PAST CONVERSATION HISTORY:\n"
-        for turn in dialogue_history[-10:]:
-            role = turn["role"]
-            content = turn["content"]
-            history_str += f"{role}: {content}\n"
-        history_str += "\n"
+def translate_query(query_ja: str) -> str:
 
-    filter_context_str = ""
-    parts = []
-    if selected_authors:
-        authors = [name.split("_")[0] for name in selected_authors]
-        parts.append(f"Authors: {', '.join(authors)}")
-    if selected_works:
-        parts.append(f"Works: {', '.join(selected_works)}")
-    if parts:
-        filter_context_str = "SEARCH SCOPE:\n" + "\n".join(parts)
-
-    full_user_content = f"{history_str}\nCURRENT QUERY TO REFORMULATE:\n{query_ja}\n\n{filter_context_str}".strip()
+    full_user_content = f"CURRENT QUERY TO REFORMULATE:\n{query_ja}".strip()
 
     system_prompt = textwrap.dedent("""
         You are a highly specialized query reformulator for a vector database focused on Western Classical literature (Ancient Greek & Latin). Your sole purpose is to convert a user's intent into a perfect, self-contained English search query.
 
         You will receive the user's intent in a structured format containing:
-        1.  `PAST CONVERSATION HISTORY`: For context and resolving pronouns.
-        2.  `CURRENT QUERY TO REFORMULATE`: The user's latest query, which is your main focus.
-        3.  `SEARCH SCOPE`: Use this information (if any) to translate the user's query.
+        1.  `CURRENT QUERY TO REFORMULATE`: The user's latest query, which is your main focus.
 
         **Your Four-Step Process:**
         1.  **Analyze Intent:** Fully grasp the user's core question from the `CURRENT QUERY` and surrounding context.
         2.  **Translate to English:** Accurately translate the Japanese query into clear English. This is the most critical first step.
-        3.  **Enrich with Context:** Integrate key terms from the `PAST CONVERSATION` and entities from `CONTEXT FROM FILTERS` to make the query specific and self-contained.
-        4.  **Format for Search:** Formulate the final query as a concise, unambiguous string, applying domain-specific knowledge (e.g., standard names like "Thucydides", "Nicomachean Ethics"; technical terms like "arete (virtue, excellence)").
+        3.  **Format for Search:** Formulate the final query as a concise, unambiguous string, applying domain-specific knowledge (e.g., standard names like "Thucydides", "Nicomachean Ethics"; technical terms like "arete (virtue, excellence)").
 
         **CRITICAL OUTPUT RULE:**
         - Your response MUST be the final English query string and nothing else.
         - DO NOT include any prefixes, explanations, or conversational text. Just the query.
-
-        ---
-        Here are examples of how you must perform.
-        ---
-        [EXAMPLE 1]
-        USER:
-        PAST CONVERSATION:
-        User: Tell me about Thucydides' account of the plague.
-        Assistant: Thucydides describes the Athenian plague in Book 2...
-
-        CURRENT QUERY TO REFORMULATE:
-        彼はペリクレスをどこで評価している？
-
-        CONTEXT FROM FILTERS:
-        Authors: Thucydides
-        Works: History of the Peloponnesian War
-
-        ASSISTANT:
-        Where does Thucydides evaluate Pericles in the History of the Peloponnesian War, especially Book 2.65?
-        ---
-        [EXAMPLE 2]
-        USER:
-        PAST CONVERSATION:
-        User: Summarize Cicero's concept of duty.
-        Assistant: In De Officiis, Cicero discusses officium...
-
-        CURRENT QUERY TO REFORMULATE:
-        officiumの意味は？
-
-        CONTEXT FROM FILTERS:
-        Authors: Cicero
-        Works: De Officiis
-
-        ASSISTANT:
-        What does Cicero mean by officium (“duty,” “obligation”) in De Officiis, focusing on definitions and examples in Book 1?
-        ---
-        [EXAMPLE 3]
-        USER:
-        PAST CONVERSATION:
-        User: Explain virtue in Aristotle's ethics.
-        Assistant: Aristotle defines aretē in relation to eudaimonia...
-
-        CURRENT QUERY TO REFORMULATE:
-        アレテーとエウダイモニアの関係は？
-
-        CONTEXT FROM FILTERS:
-        Authors: Aristotle
-        Works: Nicomachean Ethics
-
-        ASSISTANT:
-        How does Aristotle relate arete (“virtue,” “excellence”) to eudaimonia (“happiness,” “flourishing”) in the Nicomachean Ethics, especially Book I?
-        ---
     """)
 
     final_user_prompt = f"""Please reformulate a search query based on the following information. Your output must be only the final English query string.\n---\n{full_user_content}"""
@@ -145,7 +68,6 @@ def translate_query(query_ja: str, dialogue_history: list, selected_authors: lis
     )
     return res.choices[0].message.content.strip()
 
-
 def embed_query(query_en: str) -> List[float]:
     resp = GEMINI.models.embed_content(
         contents=query_en,
@@ -153,22 +75,6 @@ def embed_query(query_en: str) -> List[float]:
         config=types.EmbedContentConfig(task_type="RETRIEVAL_QUERY"),
     )
     return resp.embeddings[0].values
-
-
-def custom_metadata_filter(selected_authors, selected_works, exclude_toggle):
-    filters: Dict[str, Any] = {}
-    if exclude_toggle:
-        if selected_works:
-            filters["work"] = {"$nin": selected_works}
-        elif selected_authors:
-            filters["author"] = {"$nin": selected_authors}
-    else:
-        if selected_authors:
-            filters["author"] = {"$in": selected_authors}
-        if selected_works:
-            filters["work"] = {"$in": selected_works}
-    return filters if filters else None
-
 
 def search_pinecone(vec: List[float], query_en: str, k: int = 20, filters=None):
     if filters is None:
@@ -257,21 +163,6 @@ def build_sources_html_from_docs(docs: List[Dict[str, Any]]) -> str:
         )
     return "\n".join(html)
 
-
-# =========================
-# Load metadata
-# =========================
-with open("authors_master.json", "r", encoding="utf-8") as f:
-    _data = json.load(f)
-
-authors_data = _data["authors"]
-meta_authors = sorted(authors_data.keys())
-meta_data: Dict[str, List[str]] = {}
-for author, details in authors_data.items():
-    works = details.get("works", [])
-    meta_data[author] = sorted(works)
-
-
 # =========================
 # Streamlit UI (main only; no sidebar)
 # =========================
@@ -280,73 +171,72 @@ st.title("🔎 Humanitext Antiqua 検索評価")
 st.caption("クエリに基づく候補文脈を2種類表示します（内容のみ）。")
 
 st.subheader("検索条件")
-query = st.text_input("クエリ（日本語でOK）", placeholder="例）キケロの officium の定義は？")
-authors_sel = st.multiselect("著者フィルタ", options=meta_authors)
-candidate_works = sorted({w for a in authors_sel for w in meta_data.get(a, [])})
-works_sel = st.multiselect("著作フィルタ（選択著者の作品のみ）", options=candidate_works)
-exclude_toggle = st.checkbox("上記の著者／著作を検索から除外", value=False)
+query = st.text_area("クエリ（日本語でOK）", placeholder="例）キケロの officium の定義は？", height=100)
+run_btn = st.button("🔎 検索を実行", type="primary")
 
 # 固定設定（UI非表示）
 TOP_K = 20
-CTX_N = 10
+CTX_N = 5
 SHOW_ENQ = False
 
 col_l, col_r = st.columns(2)
 
-if query:
-    dialogue_history: List[Dict[str, str]] = [{"role": "user", "content": query}]
+if run_btn:
+    if not query.strip():
+        st.warning("クエリを入力してください。")
+        st.stop()
+    with st.spinner("検索中…"):
+        en_query = translate_query(query)
+        if SHOW_ENQ:
+            st.info(f"English query: {en_query}")
 
-    en_query = translate_query(query, dialogue_history, authors_sel, works_sel)
-    if SHOW_ENQ:
-        st.info(f"English query: {en_query}")
+        vec = embed_query(en_query)
 
-    vec = embed_query(en_query)
+        filters = {}
+        dense_resp, sparse_resp = search_pinecone(vec, en_query, k=TOP_K, filters=filters)
 
-    filters = custom_metadata_filter(authors_sel, works_sel, exclude_toggle)
-    dense_resp, sparse_resp = search_pinecone(vec, en_query, k=TOP_K, filters=filters)
+        processed_dense = merge_hits(dense_resp, {"matches": []})
+        processed_hybrid = merge_hits(dense_resp, sparse_resp)
+        doc_lookup = { str(d["id"]): d for d in processed_hybrid if d.get("id") }
 
-    processed_dense = merge_hits(dense_resp, {"matches": []})
-    processed_hybrid = merge_hits(dense_resp, sparse_resp)
-    doc_lookup = { str(d["id"]): d for d in processed_hybrid if d.get("id") }
+        docs_for_rerank = []
+        for d in processed_hybrid:
+            rid = str(d.get("id", ""))  # idは必ず文字列
+            if not rid:
+                continue
+            txt = make_rank_payload(d)
+            if not txt:
+                continue
+            docs_for_rerank.append({"id": rid, "text": txt})
 
-    docs_for_rerank = []
-    for d in processed_hybrid:
-        rid = str(d.get("id", ""))  # idは必ず文字列
-        if not rid:
-            continue
-        txt = make_rank_payload(d)
-        if not txt:
-            continue
-        docs_for_rerank.append({"id": rid, "text": txt})
+        # ① rank_payload を使うケース（推奨）
+        rerank_hybrid = PC.inference.rerank(
+            model="pinecone-rerank-v0",
+            query=en_query,
+            documents=docs_for_rerank,
+            rank_fields=["text"],   # ★ 著者・著作＋要約だけを読む
+            top_n=CTX_N,
+            return_documents=True,
+            parameters={"truncate": "END"},
+        )
 
-    # ① rank_payload を使うケース（推奨）
-    rerank_hybrid = PC.inference.rerank(
-        model="pinecone-rerank-v0",
-        query=en_query,
-        documents=docs_for_rerank,
-        rank_fields=["text"],   # ★ 著者・著作＋要約だけを読む
-        top_n=CTX_N,
-        return_documents=True,
-        parameters={"truncate": "END"},
-    )
+        # 左: 結果A（Dense: リランキングなし、score順上位5）
+        with col_l:
+            st.markdown("### 結果A")
+            if not processed_dense:
+                st.warning("該当する文脈が見つかりませんでした。条件を調整してください。")
+            else:
+                html_left = build_sources_html_from_docs(processed_dense[:CTX_N])
+                st.markdown(html_left, unsafe_allow_html=True)
 
-    # 左: 結果A（Dense: リランキングなし、score順上位5）
-    with col_l:
-        st.markdown("### 結果A")
-        if not processed_dense:
-            st.warning("該当する文脈が見つかりませんでした。条件を調整してください。")
-        else:
-            html_left = build_sources_html_from_docs(processed_dense[:CTX_N])
-            st.markdown(html_left, unsafe_allow_html=True)
-
-    # 右: 結果B（ハイブリッド: 再ランク上位5）
-    with col_r:
-        st.markdown("### 結果B")
-        if not rerank_hybrid.data:
-            st.warning("該当する文脈が見つかりませんでした。条件を調整してください。")
-        else:
-            html_right = build_sources_html_from_rerank(rerank_hybrid.data, doc_lookup)
-            st.markdown(html_right, unsafe_allow_html=True)
+        # 右: 結果B（ハイブリッド: 再ランク上位5）
+        with col_r:
+            st.markdown("### 結果B")
+            if not rerank_hybrid.data:
+                st.warning("該当する文脈が見つかりませんでした。条件を調整してください。")
+            else:
+                html_right = build_sources_html_from_rerank(rerank_hybrid.data, doc_lookup)
+                st.markdown(html_right, unsafe_allow_html=True)
 else:
-    st.info("上の入力欄にクエリを入力して実行してください。")
+    st.info("上の入力欄にクエリを入力して「検索を実行」を押してください。")
 
